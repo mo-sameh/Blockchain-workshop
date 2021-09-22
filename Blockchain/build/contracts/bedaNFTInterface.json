@@ -1,0 +1,298 @@
+{
+  "contractName": "bedaNFTInterface",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "volume",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "requestId",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateNextGenTime",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"volume\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"requestId\",\"type\":\"uint256\"}],\"name\":\"updateNextGenTime\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/nftInterface.sol\":\"bedaNFTInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/nftInterface.sol\":{\"keccak256\":\"0xc7af7cd68d628960944e65f68b47f698f9e8cb4d3affeae7b324fce80c736e13\",\"urls\":[\"bzz-raw://b5076ec7e4b33824f9c9928d75d2fbcaa2f5358daca73cfaf1ea3ab6bf909d70\",\"dweb:/ipfs/QmNN32aAAvqQU9xPaSEVAMMvMcUt1suUUDUhnZ3WnngmUD\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity 0.8.4;\r\n\r\ninterface bedaNFTInterface {\r\n    function updateNextGenTime(uint volume, uint requestId) external;\r\n}",
+  "sourcePath": "D:\\work\\BlockChain\\Project\\Final\\contracts\\nftInterface.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/nftInterface.sol",
+    "exportedSymbols": {
+      "bedaNFTInterface": [
+        2677
+      ]
+    },
+    "id": 2678,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2669,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:17"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2677,
+        "linearizedBaseContracts": [
+          2677
+        ],
+        "name": "bedaNFTInterface",
+        "nameLocation": "36:16:17",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "515ba4a9",
+            "id": 2676,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateNextGenTime",
+            "nameLocation": "69:17:17",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2674,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2671,
+                  "mutability": "mutable",
+                  "name": "volume",
+                  "nameLocation": "92:6:17",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2676,
+                  "src": "87:11:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2670,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "87:4:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2673,
+                  "mutability": "mutable",
+                  "name": "requestId",
+                  "nameLocation": "105:9:17",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2676,
+                  "src": "100:14:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2672,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "100:4:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "86:29:17"
+            },
+            "returnParameters": {
+              "id": 2675,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:0:17"
+            },
+            "scope": 2677,
+            "src": "60:65:17",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2678,
+        "src": "26:102:17",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:128:17"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/nftInterface.sol",
+    "exportedSymbols": {
+      "bedaNFTInterface": [
+        2677
+      ]
+    },
+    "id": 2678,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2669,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:17"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2677,
+        "linearizedBaseContracts": [
+          2677
+        ],
+        "name": "bedaNFTInterface",
+        "nameLocation": "36:16:17",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "515ba4a9",
+            "id": 2676,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateNextGenTime",
+            "nameLocation": "69:17:17",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2674,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2671,
+                  "mutability": "mutable",
+                  "name": "volume",
+                  "nameLocation": "92:6:17",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2676,
+                  "src": "87:11:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2670,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "87:4:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2673,
+                  "mutability": "mutable",
+                  "name": "requestId",
+                  "nameLocation": "105:9:17",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2676,
+                  "src": "100:14:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2672,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "100:4:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "86:29:17"
+            },
+            "returnParameters": {
+              "id": 2675,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "124:0:17"
+            },
+            "scope": 2677,
+            "src": "60:65:17",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2678,
+        "src": "26:102:17",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:128:17"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T03:45:12.431Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

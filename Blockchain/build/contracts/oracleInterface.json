@@ -1,0 +1,239 @@
+{
+  "contractName": "oracleInterface",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getPrice",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getPrice\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/oracleInterface.sol\":\"oracleInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/oracleInterface.sol\":{\"keccak256\":\"0x5cf0d2bf93af20d8c892b820f637781fe858f47b56b26aaeee45a73165bb444f\",\"urls\":[\"bzz-raw://4c8be04f1f58a98d53f831666e41a7780334231a7a3d4d64333302701964a220\",\"dweb:/ipfs/Qmdf8VPA6RS5XyvjbksKUxPB5QDEtHBfMJF2enTTUQmqsu\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity 0.8.4;\r\n\r\ninterface oracleInterface {\r\n    function getPrice() external returns (uint);\r\n}\r\n",
+  "sourcePath": "D:\\work\\BlockChain\\Project\\Final\\contracts\\oracleInterface.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/oracleInterface.sol",
+    "exportedSymbols": {
+      "oracleInterface": [
+        2841
+      ]
+    },
+    "id": 2842,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2835,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:19"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2841,
+        "linearizedBaseContracts": [
+          2841
+        ],
+        "name": "oracleInterface",
+        "nameLocation": "36:15:19",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "98d5fdca",
+            "id": 2840,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPrice",
+            "nameLocation": "68:8:19",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2836,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "76:2:19"
+            },
+            "returnParameters": {
+              "id": 2839,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2838,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2840,
+                  "src": "97:4:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2837,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "97:4:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "96:6:19"
+            },
+            "scope": 2841,
+            "src": "59:44:19",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2842,
+        "src": "26:80:19",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:108:19"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/oracleInterface.sol",
+    "exportedSymbols": {
+      "oracleInterface": [
+        2841
+      ]
+    },
+    "id": 2842,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2835,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:19"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 2841,
+        "linearizedBaseContracts": [
+          2841
+        ],
+        "name": "oracleInterface",
+        "nameLocation": "36:15:19",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "98d5fdca",
+            "id": 2840,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getPrice",
+            "nameLocation": "68:8:19",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2836,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "76:2:19"
+            },
+            "returnParameters": {
+              "id": 2839,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2838,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2840,
+                  "src": "97:4:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2837,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "97:4:19",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "96:6:19"
+            },
+            "scope": 2841,
+            "src": "59:44:19",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 2842,
+        "src": "26:80:19",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:108:19"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T03:45:12.439Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
